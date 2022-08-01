@@ -1,0 +1,428 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* SCROLL BAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track:vertical {
+  background: hsl(120 75% 50%/1);
+  border-radius: 100vh;
+  margin-block: 0.5rem;
+}
+::-webkit-scrollbar-thumb:vertical {
+  background: hsl(120 100% 20%/1);
+  border-radius: 100vh;
+}
+/*NAVIGATION BAR*/
+.navbar-brand img {
+  height: 3.125rem;
+  width: 8.125rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 6.25rem;
+}
+.navigation-wrap {
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+}
+.navigation-wrap .nav-item {
+  padding: 0 0.5rem;
+}
+.navbar-toggler:focus {
+  outline: unset;
+  border: none;
+  box-shadow: none;
+}
+.navigation-wrap .nav-link {
+  padding-top: 0.9375rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.0625rem;
+}
+/*BANNER*/
+
+.btn-shop {
+  border-radius: 6.25rem;
+  margin-left: 3.75rem;
+  margin-top: 1.875rem;
+}
+#home {
+  margin-top: 7.5rem;
+}
+
+.banner-content-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: content;
+}
+.company-logo {
+  width: 43.75rem;
+}
+#company-logo-forbes {
+  display: inline-block;
+  height: 2.875rem;
+  width: 7.188rem;
+  margin-left: 3.125rem;
+  margin-top: 1.875rem;
+}
+#company-logo-bloomberg {
+  display: inline-block;
+  height: 2.688rem;
+  width: 11.875rem;
+  margin-left: 3.125rem;
+  margin-top: 2.5rem;
+}
+.banner-content h3 {
+  font-family: Arima;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.813rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 3.125rem;
+  margin-top: 1.25rem;
+}
+.banner-content p {
+  font-family: Arima;
+  font-size: 1rem;
+  font-weight: 250;
+  line-height: 1.188rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 3.125rem;
+  margin-top: 1.25rem;
+}
+.banner-content h1 {
+  font-family: Belleza;
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 6.938rem;
+  letter-spacing: -0.031rem;
+  text-align: left;
+  margin-left: 3.125rem;
+  border-radius: nullpx;
+  margin-top: 6.25rem;
+  width: 40.625rem;
+}
+/* CAROUSEL OUTER */
+#carousel {
+  margin-top: 6.25rem;
+}
+.outer-carousel-content p {
+  font-family: arima;
+  font-size: 1.5rem;
+  font-weight: 250;
+  line-height: 1.813rem;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 32.5rem;
+
+  margin-left: 3.75rem;
+}
+.outer-carousel-content-two h1 {
+  font-family: lora;
+  font-size: 1.875rem;
+  font-weight: bold;
+  line-height: 2.438rem;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 31.25rem;
+  margin-left: 3.75rem;
+}
+.outer-carousel-content-two p {
+  margin-top: 3.125rem;
+  font-size: 1.25rem;
+  line-height: 2.438rem;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 37.5rem;
+  margin-left: 3.75rem;
+}
+.outer-carousel-content-two img {
+  display: inline-block;
+  margin-left: 1.25rem;
+  height: 1.875rem;
+  width: 1.875rem;
+  margin-bottom: 0.375rem;
+}
+/* carousel-inner */
+#carousel-inner {
+  margin-top: 11.875rem;
+  position: relative;
+}
+.inner-carousel-content {
+}
+.carousel-item {
+  height: 37.5rem;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+.under-cover {
+  background-color: #ededed;
+  position: absolute;
+  top: 23.75rem;
+  width: 100%;
+  height: 23.125rem;
+  z-index: -1;
+}
+.under-cover p {
+  margin-top: 18.75rem;
+  margin-left: 1.875rem;
+  font-family: arima;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+.under-cover-arrow {
+}
+.under-cover img {
+  margin-top: 18.438rem;
+  height: 2.063rem;
+  width: 2.063rem;
+}
+#under-cover-image {
+  margin-left: 21.875rem;
+}
+/* SHOP */
+.card-images{
+  width: 18rem;
+}
+#shop {
+  margin-top: 15.625rem;
+}
+#shop p {
+  font-family: Aeonik;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+#shop h3 {
+  font-family: Lora;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3.813rem;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 33.75rem;
+}
+.button-see-all {
+  margin-top: 2.188rem;
+}
+.btn {
+  border-radius: 15.625rem;
+  width: 9.375rem;
+}
+/*CARD*/
+.card-wrapper {
+  display: flex;
+  margin-top: 6.25rem;
+}
+.card {
+  margin: 0 0.5rem;
+  width: calc(100% / 4);
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 0.375rem 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#card-text p {
+  font-family: Aeonik;
+  font-size: 1.063rem;
+  font-weight: 400;
+  word-spacing: 4.375rem;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/*REVIEW */
+
+#reviews {
+  margin-top: 9.375rem;
+}
+
+.row-review h1 {
+  font-family: Aeonik;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.row-review p {
+  font-family: Aeonik;
+  font-size: 1rem;
+  font-weight: 250;
+  line-height: 1.188rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.row-review-icon i {
+  color: gold;
+}
+.row-review-number {
+  margin-top: 1.25rem;
+}
+.row-review-number h5 {
+  font-family: Aeonik;
+  font-size: 0.813rem;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-review{
+  width: 35rem;
+}
+.card-body-review P {
+  font-family: Lora;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.875rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-body-review h5 {
+  font-family: Lora;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.938rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-body-review h6 {
+  font-family: Aeonik;
+  font-size: 1rem;
+  font-weight: 250;
+  line-height: 1.188rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/*IMAGE COLLECTION */
+#collection {
+  margin-top: 6.25rem;
+}
+.smaller-image{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.bigger-image  {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+.banner-image-collection {
+  margin-top: 6.25rem;
+}
+
+/*INFORMATION */
+#instructions {
+  margin-top: 6.25rem;
+}
+.instructions-text h1 {
+}
+.instructions-text {
+  font-family: Lora;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3.813rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.input-group input {
+  text-decoration: none;
+}
+.form-group-email input {
+  width: 18.75rem;
+}
+.form-control-email {
+  margin-left: 8.5rem;
+  margin-top: 3.125rem;
+  text-decoration: none;
+  border: none;
+  border-bottom: solid grey;
+  border-radius: 0px;
+  padding-bottom: 1rem;
+}
+.form-control-email:focus {
+  box-shadow: none;
+}
+#form-button {
+  margin-top: 3.125rem;
+  display: inline-block;
+  border-bottom: solid grey;
+}
+
+/*FOOTER */
+#footer {
+  margin-top: 6.25rem;
+  padding-bottom: 2rem;
+  background-color: #f3f3f3;
+  padding-top: 2rem;
+}
+#footer i {
+  flex: 1;
+  margin: 0 1%;
+  color: black;
+  margin-right: 1.875rem;
+}
+#footer a {
+  text-decoration: none;
+  color: black;
+  font-family: Quicksand;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: -0.028rem;
+  text-align: left;
+}
+#footer img {
+  height: 2.125rem;
+  width: 5.125rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 6.25rem;
+  margin-top: -0.938rem;
+}
+.links-anchor{
+  display: flex;
+  justify-content:center;
+}
+.links-awesome{
+  display: flex;
+  justify-content: center;
+}
